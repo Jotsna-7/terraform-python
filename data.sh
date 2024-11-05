@@ -2,10 +2,10 @@
 sudo yum -y update
 sudo yum -y install git
 sudo yum -y install python3-pip
-git clone https://github.com/mister-lollipop/Agri.git
+git clone https://github.com/Jotsna-7/fish.git
 cd /
-sudo mv Agri/ /home/ec2-user/
+sudo mv fish/ /home/ec2-user/
 cd /home/ec2-user/
-cd Agri/
+cd fish/
 pip3 install -r requirements.txt
 screen -m -d python3 app.py
