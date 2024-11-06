@@ -7,4 +7,4 @@ sudo mv fish/ /home/ec2-user/
 cd /home/ec2-user/
 cd fish/
 pip3 install -r requirements.txt
-screen -m -d python3 ./app.py
+python3 ./app.py
